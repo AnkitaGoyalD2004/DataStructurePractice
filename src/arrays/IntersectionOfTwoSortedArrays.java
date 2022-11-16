@@ -30,13 +30,6 @@ public class IntersectionOfTwoSortedArrays {
 	    }
 	    return res;
 	}
-	public static void main(String[] args) {
-		int arr1[] = {2,2,3,3,3,4,4};
-		int arr2[] = {4,4,5,5,6,7};
-		int ans[] = intersect(arr1 , arr2);
-		for(int i = 0;i<ans.length;i++)
-			System.out.print(ans[i]+" ");
-		}
-	}
+	
 
 
