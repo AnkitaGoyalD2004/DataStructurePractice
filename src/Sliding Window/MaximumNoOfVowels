@@ -1,0 +1,22 @@
+package SlidingWindow;
+
+public class MaximumNoOfVowels {
+    public static int maxVowels(String s, int k) {
+        int maxVowel = 0 ;
+        int currVowel = 0;
+        for(int i = 0 ; i <s.length() ; i++){
+             currVowel += isVowel(s.charAt(i));
+             if(i>=k){
+                currVowel -= isVowel(s.charAt(i-k));
+                maxVowel = Math.max(maxVowel, currVowel);
+             } 
+        }
+        return maxVowel;
+    }
+    public static int isVowel(char c){
+        if(c =='a' || c == 'e' || c =='i' || c=='o' || c=='u'){
+          return 1;
+        }
+        return 0;
+    }
+}
