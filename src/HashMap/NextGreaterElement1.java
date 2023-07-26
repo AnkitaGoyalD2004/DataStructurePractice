@@ -1,4 +1,5 @@
 package HashMap;
+
 import java.util.Stack;
 import java.util.HashMap;
 public class NextGreaterElement1 {
