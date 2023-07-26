@@ -3,6 +3,7 @@ package HashMap;
 import java.util.Stack;
 
 import java.util.HashMap;
+
 public class NextGreaterElement1 {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
