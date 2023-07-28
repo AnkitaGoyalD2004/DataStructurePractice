@@ -2,7 +2,7 @@ package StacksAndQueues;
 import java.util.Stack;
 import java.util.HashMap;
 public class NextGreaterElement2 {
-    // TLE occur
+  
     public  int[] NextGreaterElement(int nums[]){
         int n = nums.length;
         Stack<Integer> s = new Stack<>();
