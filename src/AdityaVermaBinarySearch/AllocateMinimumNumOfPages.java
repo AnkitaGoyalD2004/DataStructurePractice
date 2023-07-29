@@ -1,6 +1,7 @@
 package AdityaVermaBinarySearch;
 
 public class AllocateMinimumNumOfPages {
+	
 	public static int findPages(int [] A, int N,int M) {
 		if(N<M) {
 			return -1;
