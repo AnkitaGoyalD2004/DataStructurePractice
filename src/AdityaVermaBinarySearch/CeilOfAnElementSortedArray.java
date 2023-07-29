@@ -1,4 +1,5 @@
 package AdityaVermaBinarySearch;
+
 public class CeilOfAnElementSortedArray {
 	public static int findCeil(int[] arr, int n, int x) {
 		int result = -1;
