@@ -1,7 +1,6 @@
 package AdityaVermaBinarySearch;
 
 public class CeilOfAnElementSortedArray {
-	
 	public static int findCeil(int[] arr, int n, int x) {
 		int result = -1;
 		int start = 0,end = n-1;
