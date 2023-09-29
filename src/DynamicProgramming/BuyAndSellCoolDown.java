@@ -1,5 +1,4 @@
 package DynamicProgramming;
-
 public class BuyAndSellCoolDown {
     
      public static int maxProfit(int[] prices){
