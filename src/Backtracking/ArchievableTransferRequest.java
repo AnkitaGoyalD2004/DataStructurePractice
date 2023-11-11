@@ -1,7 +1,6 @@
 package Backtracking;
 
 public class ArchievableTransferRequest {
-    
     int max = Integer.MIN_VALUE;
     public int maximumRequests(int n, int[][] requests) {
 
